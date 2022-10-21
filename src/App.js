@@ -6,21 +6,21 @@ function App() {
     id:1,
     name:"lavar los trastes",
     description:"lavar los trastes con agua y jabón ",
-    date: "february 5th at 3:pm",
+    date: "5 de febrero a las 3:pm",
     reminder:true
 },
 {
     id:2,
     name:"leer un libro",
     description:" leer un libro mientras voy en el camión",
-    date: "february 20th at 10:pm",
+    date: "10 de febrero a las 10:pm",
     reminder:true
 },
 {
     id:3,
     name:"escribir en mi diario",
     description: "escribir en mi diario todas las mañanas los ueños que hay tenidos, lo más detalladamente que se pueda",
-    date: "december 24th at 12:am",
+    date: "24 de diciembre 12:am",
     reminder:false
 }])
 

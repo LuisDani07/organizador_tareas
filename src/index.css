@@ -87,4 +87,9 @@ footer{
     margin-top: 30px;
     text-align:center;
 }
+.deleteButton{
+    padding:5px;
+    border-radius: 5px;
+    background-color: red;
+}
 

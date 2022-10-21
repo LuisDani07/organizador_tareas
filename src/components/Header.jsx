@@ -10,14 +10,14 @@ const onClick=()=>{
   return (
     <header className='header'>
            <h1>{title}</h1>
-           <Button color='green' text='Add' onClick={onClick}/>
+           <Button color='green' text='Agregar' onClick={onClick}/>
     </header>
   )
 }
 
 
 Header.defaultProps={
-    title: 'Task Tracker'
+    title: 'Tareas'
 }
 
 Header.propTypes={
