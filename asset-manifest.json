@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/organizador_tareas/static/css/main.d87b2953.css",
+    "main.js": "/organizador_tareas/static/js/main.ec10b196.js",
+    "static/js/787.9f4d1261.chunk.js": "/organizador_tareas/static/js/787.9f4d1261.chunk.js",
+    "index.html": "/organizador_tareas/index.html",
+    "main.d87b2953.css.map": "/organizador_tareas/static/css/main.d87b2953.css.map",
+    "main.ec10b196.js.map": "/organizador_tareas/static/js/main.ec10b196.js.map",
+    "787.9f4d1261.chunk.js.map": "/organizador_tareas/static/js/787.9f4d1261.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d87b2953.css",
+    "static/js/main.ec10b196.js"
+  ]
+}
