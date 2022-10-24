@@ -3,6 +3,7 @@ import Tasks from './components/Tasks'
 import AddTask from './components/AddTask';
 import {useState} from 'react';
 function App() {
+  const [showAddTask, setShowAddTask]=useState(false)
   const [tasks, setTask]=useState([{
     id:1,
     name:"lavar los trastes",
@@ -44,12 +45,15 @@ const newTask={id, ...task}
 setTask([...tasks, newTask])
 }
 
-
+//add form
+const onAddForm=()=>{
+  setShowAddTask(!showAddTask)
+}
 
   return (
        <div className="container">
-          <Header />
-          <AddTask onAdd={addTask}/>
+          <Header onAddForm={onAddForm}/>
+          {showAddTask &&<AddTask onAdd={addTask}/>}
          { tasks.length>0 ?<Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>:"aún no hay tareas para mostrar"}
        </div>
   )
