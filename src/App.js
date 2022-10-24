@@ -52,7 +52,7 @@ const onAddForm=()=>{
 
   return (
        <div className="container">
-          <Header onAddForm={onAddForm}/>
+          <Header onAddForm={onAddForm} showAdd={showAddTask}/>
           {showAddTask &&<AddTask onAdd={addTask}/>}
          { tasks.length>0 ?<Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder}/>:"aún no hay tareas para mostrar"}
        </div>
